@@ -1,6 +1,6 @@
 name = "minio_jll"
 uuid = "ad83bbfc-c153-533a-bb97-700a7db721e0"
-version = "1.0.0+0"
+version = "1.0.0+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
