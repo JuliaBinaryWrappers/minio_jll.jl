@@ -1,143 +1,160 @@
 [[minio]]
 arch = "aarch64"
-git-tree-sha1 = "ad524c95907ec56a0325220d11b60536ce0047f5"
+git-tree-sha1 = "38fa95b032d2693769f28586c16f7626f8b6455e"
 os = "macos"
 
     [[minio.download]]
-    sha256 = "6f1c65ceeed72ffe4790f4e97ced65f26d62eb1f4aabce8ed002d362db18e438"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "b0d17742aca49d622d79e80053f3c3558003a1bd5220dc20b244d20b2f5f6879"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.aarch64-apple-darwin.tar.gz"
 [[minio]]
 arch = "aarch64"
-git-tree-sha1 = "cd281501b88180d28ecdaad51744028a80325ebb"
+git-tree-sha1 = "204a498eb1554dfaf1dcca3b43c370914b62e6e1"
 libc = "glibc"
 os = "linux"
 
     [[minio.download]]
-    sha256 = "428c9e97454776b35b7dbebcf3f54957ae77c8b66ae1a6397ee56f8f821af134"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "f89b2809150049c3053eb4ed3b2103e6dcc4679eae4d3022d16aae23561d2712"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.aarch64-linux-gnu.tar.gz"
 [[minio]]
 arch = "aarch64"
-git-tree-sha1 = "b134c079c0fbb2c75b8d618bb6cb197483424990"
+git-tree-sha1 = "b783ced82b040c133ffcc399e09e1c9762e6ab18"
 libc = "musl"
 os = "linux"
 
     [[minio.download]]
-    sha256 = "ad9cf90ccdb4d3a78cd790536e7b69cec0aae8cdc0c1ef1541edaf6adb77a44b"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.aarch64-linux-musl.tar.gz"
+    sha256 = "57b3f7d0fd00d9a027264ee488de93151ac2712d37ef484d0d3c4fbefca91a3c"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.aarch64-linux-musl.tar.gz"
 [[minio]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "1d836fb2e0ac4751acc9c1f60ffc2ffc9cbb6733"
-libc = "glibc"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "3b0416124520db85ff471d3f840cc99e128e3b16091d22890760c2693df8b937"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.armv6l-linux-gnueabihf.tar.gz"
-[[minio]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "a30265687cb16fed4a6ad83bd45aa5910c12b206"
-libc = "musl"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "bc560744e51d46e2d04affed7dcabac269c950c0c6564e4bdf501313c408773e"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.armv6l-linux-musleabihf.tar.gz"
-[[minio]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "837ecd14e3fe7381354707b74f49fdc1500ee8fb"
-libc = "glibc"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "246f8ab881e32a3660b550bbf96ec38b411b8dc43ebe713e1a17cddac43979a3"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.armv7l-linux-gnueabihf.tar.gz"
-[[minio]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "eda6dd25a4f5b8adb1f4896ec11fa69ea0c1286b"
-libc = "musl"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "a8e1ce4e6ff672b219a6e2dcd13e3def32bb68005b6c560ec08f8c3be8b55c4f"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.armv7l-linux-musleabihf.tar.gz"
-[[minio]]
-arch = "i686"
-git-tree-sha1 = "281a281c451bb02d90c76a64e18ac5195f445bf0"
-libc = "glibc"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "d0a1c1ef376c026cd0141d1f594236e33af9e3ff5ecec84186a3511f0db1d71a"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.i686-linux-gnu.tar.gz"
-[[minio]]
-arch = "i686"
-git-tree-sha1 = "f96f011304d68df8ff654fc535e3f9a9722e458f"
-libc = "musl"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "2cb7c4f4216c0c2fea35a22ce601d8f04bc0de892c1c0647b6c7049e46f3da36"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.i686-linux-musl.tar.gz"
-[[minio]]
-arch = "i686"
-git-tree-sha1 = "fd544fc51225a94364f396634be98f324de61be2"
-os = "windows"
-
-    [[minio.download]]
-    sha256 = "34ddc6f71fbb9dc0e7ed8660720804ea3401a1ec6f1db7ae02ba2da78874512a"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.i686-w64-mingw32.tar.gz"
-[[minio]]
-arch = "powerpc64le"
-git-tree-sha1 = "4a7032a47e5e260c744f258ec30b435e27862e42"
-libc = "glibc"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "c64eca2a934aa4eca7e611aa866d9d46b4102bb66139415a4dcff1d1be101331"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.powerpc64le-linux-gnu.tar.gz"
-[[minio]]
-arch = "x86_64"
-git-tree-sha1 = "a355cc1d8a2b29f5963180f1ebce5c1216593dea"
-os = "macos"
-
-    [[minio.download]]
-    sha256 = "0e2399c13c08c3040102f4495e526c7914b6242bb92d25ae53f56e6be29565e7"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.x86_64-apple-darwin.tar.gz"
-[[minio]]
-arch = "x86_64"
-git-tree-sha1 = "4af9de354b1d02264523f343e27c7b2fd76b2daa"
-libc = "glibc"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "ee4ce56c4e3b3eede4d804ec5ccc5fa2336101e6ddb025a9a6627b0829c9e39b"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.x86_64-linux-gnu.tar.gz"
-[[minio]]
-arch = "x86_64"
-git-tree-sha1 = "607e46d04b69b3e225051e80e6d41a17b9c0b0b8"
-libc = "musl"
-os = "linux"
-
-    [[minio.download]]
-    sha256 = "a94ad25aa9eea028b06f86578b19c856a5729c0e4928e59b57705959144ef29f"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.x86_64-linux-musl.tar.gz"
-[[minio]]
-arch = "x86_64"
-git-tree-sha1 = "8dc336ff0459207033754aef993e020192549a04"
+arch = "aarch64"
+git-tree-sha1 = "172caa6051e57fc6ee9a0b6c5f5c8748ae6f76ba"
 os = "freebsd"
 
     [[minio.download]]
-    sha256 = "02c2f9111ad0ff5ccc5c9730a108081df4a505c319d88a09302a117ba6bf3925"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "18d39d37f5898b089b15ba2bd32c2b3c658a3f8b3a0327947f65306881b6eb12"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.aarch64-unknown-freebsd.tar.gz"
 [[minio]]
-arch = "x86_64"
-git-tree-sha1 = "a9c487fe62d20af6cfd565fc98b55d726c77be42"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "2f21b42bb6faf3e517c02f19e47cd65004f7dbd2"
+libc = "glibc"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "58b9d4c994f7040c48d3548bab178b7ae710e995f3a153ed5b46acbbfb54615b"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.armv6l-linux-gnueabihf.tar.gz"
+[[minio]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "0f26ec03e99409e300dc59c4b7bdd36da68662c1"
+libc = "musl"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "23263615fe8873766e0af9f2d5cffe7df6a1cdd9fa0774442241936b11c60f5e"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.armv6l-linux-musleabihf.tar.gz"
+[[minio]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "828efa87d28cf0deab53121fff32b3940cc835f1"
+libc = "glibc"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "22a55a3cae7c0724a60438bb653ade0da0b6a79f8ed6d4c9a0312462d8bf00f6"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.armv7l-linux-gnueabihf.tar.gz"
+[[minio]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "630e125dd41c9daf78170947618d2d490fa3bc99"
+libc = "musl"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "07c5af8535b9e5417d361ea47acc852ca0bc158a2eaddf94532b355a1a4d6f36"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.armv7l-linux-musleabihf.tar.gz"
+[[minio]]
+arch = "i686"
+git-tree-sha1 = "e8b9722930e8d0f85d2a7dae134d9209962f8b3f"
+libc = "glibc"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "a3b05fff0dc0a5893d094098dabe5205336625883ba7216a3b5f2ee864ff6ce0"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.i686-linux-gnu.tar.gz"
+[[minio]]
+arch = "i686"
+git-tree-sha1 = "03a38275d1711716b6ddcb3e3281c9305536b430"
+libc = "musl"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "19955bf2391019843657091f0565af23aee3b16241574d434e73a11fb51e6a9e"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.i686-linux-musl.tar.gz"
+[[minio]]
+arch = "i686"
+git-tree-sha1 = "536cb3820bfbae94fe2cd2b471b96bca4b954bd6"
 os = "windows"
 
     [[minio.download]]
-    sha256 = "8f4e1090282ee4ca932ac264854e19a655089170e1dca695ef0c6cd3ddd950be"
-    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v1.0.0+1/minio.v1.0.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "7e758a021bc2fe99b4eff84364cd142170d35b754845af6df338f7ab0ac5b07b"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.i686-w64-mingw32.tar.gz"
+[[minio]]
+arch = "powerpc64le"
+git-tree-sha1 = "09924b3c49982234f933ca79ee750b1c53b6114b"
+libc = "glibc"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "345c659d9265615a824bf310cd32dfdf01b4c00ab8432bb486498963da20908d"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.powerpc64le-linux-gnu.tar.gz"
+[[minio]]
+arch = "riscv64"
+git-tree-sha1 = "5213da7c0b20351b12924c5a1b16e32e725cd220"
+libc = "glibc"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "f018255686b357b812e7e7c1329cea4a8c5733933b4be91843634da52b34e6e5"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.riscv64-linux-gnu.tar.gz"
+[[minio]]
+arch = "x86_64"
+git-tree-sha1 = "2e67833caa1e9f820a807a681f32ab07719a0403"
+os = "macos"
+
+    [[minio.download]]
+    sha256 = "2ea56fdc099907744584182ad647ce28d4f2650ec434190972219d2bf7992fec"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.x86_64-apple-darwin.tar.gz"
+[[minio]]
+arch = "x86_64"
+git-tree-sha1 = "2da60f25cc4cde558a4c0fe02f22c4d7c59febd4"
+libc = "glibc"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "c5a49d430f7ee37f50d1f0400702bf4ae518bb5c15e120b95147110754139795"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.x86_64-linux-gnu.tar.gz"
+[[minio]]
+arch = "x86_64"
+git-tree-sha1 = "2004396bcc0c0a2921f08fbad7d63e7835dcc3d5"
+libc = "musl"
+os = "linux"
+
+    [[minio.download]]
+    sha256 = "657d9b1d08d51fda64b8c95470659a1d938a29d2471e5b9b523348a567b272e7"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.x86_64-linux-musl.tar.gz"
+[[minio]]
+arch = "x86_64"
+git-tree-sha1 = "b42eaa9723a205dd347ef54b376ffd4facf25f51"
+os = "freebsd"
+
+    [[minio.download]]
+    sha256 = "431a6101e1ab79abcc18106db84edba52da554ce70d3714220a0867596b795a0"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.x86_64-unknown-freebsd.tar.gz"
+[[minio]]
+arch = "x86_64"
+git-tree-sha1 = "6326127502541365c70ab7380a1c5b85674345ec"
+os = "windows"
+
+    [[minio.download]]
+    sha256 = "4836780b1f1116b408081f3057dce5cd01bbef952a185c19bd87653c9989a882"
+    url = "https://github.com/JuliaBinaryWrappers/minio_jll.jl/releases/download/minio-v2.0.0+0/minio.v2.0.0.x86_64-w64-mingw32.tar.gz"
